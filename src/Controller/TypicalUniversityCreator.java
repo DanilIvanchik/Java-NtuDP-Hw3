@@ -56,10 +56,10 @@ public class TypicalUniversityCreator {
 
         Human newHeadOfUniversity = newHuman.createHuman("Azyukovsky", "Oleksandr", "Oleksandrovych", "Male");
 
-        List<Faculty> firstNewFaculty = new ArrayList<>();
-        firstNewFaculty.add(newFaculty1);
+        List<Faculty> newFacultyList = new ArrayList<>();
+        newFacultyList.add(newFaculty1);
 
-        University myTypicalUniversity = createUniversity("National TU 'Dnipro Polytechnic'", newHeadOfUniversity, firstNewFaculty);
+        University myTypicalUniversity = createUniversity("National TU 'Dnipro Polytechnic'", newHeadOfUniversity, newFacultyList);
 
         return myTypicalUniversity;
     }
